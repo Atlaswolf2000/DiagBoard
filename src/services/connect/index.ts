@@ -1,0 +1,6 @@
+export { connectDevice, getAdapter } from '@/services/connect/connectLayer'
+export { evaluateHeartbeat, shouldEnterManualMode } from '@/services/connect/heartbeatGuard'
+export { webSerialAdapter } from '@/services/connect/webSerialAdapter'
+export { webUsbAdapter } from '@/services/connect/webUsbAdapter'
+export { nativeBridgeAdapter } from '@/services/connect/nativeBridgeAdapter'
+export type { ConnectSession, DeviceAdapter, TelemetryChunk } from '@/services/connect/types'
